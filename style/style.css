@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h3, p {
+  color: #fa275a;
+}
+
+div.all-menu {
+  margin: 20px;
+  background-color: #ffdd00;
+  width: 800px;
+  padding: 10px;
+}
+
+div.all-menu div.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid #13f5ed;
+  padding: 10px 0px;
+}
+
+div.all-menu div.item-size {
+  display: flex;
+}
+
+div.all-menu div.item-size div {
+  padding: 0px 80px;
+  text-align: center;
+}
+
+div.all-menu div.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
+
+div.all-menu div.menu div.item {
+  display: flex;
+}
+
+div.all-menu div.menu div.item div.item-price {
+  display: flex;
+}
+
+div.all-menu div.menu div.item div.item-price div {
+  padding: 0px 100px;
+  text-align: center;
+}
+
+div.all-menu div.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fa275a;
+  padding: 15px;
+  margin: 15px 20px;
+}
+
+div.all-menu div.footer div, div.all-menu div.footer p, div.all-menu div.footer h3 {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
